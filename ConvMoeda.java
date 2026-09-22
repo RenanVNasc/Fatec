@@ -15,7 +15,7 @@ public class ConvMoeda {
 
         nReais = n * cotacao;
 
-        System.out.printf ("Valor digitado convertido em reais: R$ %.2f", nReais);
+        System.out.printf ("$%.2f = R$ %.2f", n, nReais);
         
         scanner.close();
     }
